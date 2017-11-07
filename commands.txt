@@ -1,0 +1,6 @@
+git branch -d (branchname) - Deletes a feature branch
+git push --all origin  : Push all branch to your remote repository
+git log : Shows a listing of commits on a branch
+git add .  : Adding all files not staged
+git branch : List all branches 
+
