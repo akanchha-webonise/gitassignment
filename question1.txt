@@ -1,0 +1,10 @@
+Design Pattern : Composite Pattern
+
+Pseudo Code:
+
+1. Create an interface having methods netPrice and PowerConsumption.
+2. Implement this interface in class "chasis", "cabinet".
+3. Create sub-classes(bus,floppyDisk,memoryUnit,CPU,powerSupply) of super class(chasis).
+4.Override the function netPrice and PowerConsumption in each class.
+
+Call the functions from the clientcode.

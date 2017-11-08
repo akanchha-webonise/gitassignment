@@ -1,0 +1,15 @@
+Design Pattern : Strategy Pattern
+
+WHY: 
+A class defines many behaviors, and these appear as multiple conditional statements in its operations. Instead of many conditionals, move related conditional branches into their own Strategy class. 
+
+Pseudo Code:
+
+1. Create an Interface "SortingAlgo" , it has sortingAlgorithm method.
+2. Inherit Sort in Various class named after their function( for ex. Bubble Sort, Insertion Sort etc)
+3.Create an interface object 
+4. Create a class "Sort" and define a method "SortFunction(SortingAlgo sort)" there to call my sorting algorithms.
+5. In my client code , Create an object of sort and call the method.
+
+
+

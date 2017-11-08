@@ -1,0 +1,19 @@
+Design Pattern : Abstract Factory Method
+
+Abstract factory Pattern provides a way to encapsulate a family of products.It offers the interface for creating a family of related objects, without explicitly specifying their classes.
+
+
+Pseudo Code:
+
+1. Create Interface named as "Chasis" 
+2. Create another interface named as "Cabinet".
+3. Inherit Chasis into "TowerChasis" and "DesktopChasis".
+4. Inherit Cabinet into "TowerCabinet" and "DesktopCabinet".
+5. Create an Interface "AbstractFactory".
+6. Inherit it into "Tower" and "Desktop".
+7. Methods in Tower and Desktop
++createTower(): Tower
++createDesktop():Desktop
+
+
+

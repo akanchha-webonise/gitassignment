@@ -1,0 +1,3 @@
+Design Pattern : Decorator Pattern
+
+It adds the additional features without changing existing component classes.
