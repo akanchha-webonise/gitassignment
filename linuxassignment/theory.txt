@@ -1,0 +1,46 @@
+Difference between http1 and http2
+
+                       HTTP1
+                        HTTP2
+Only 6 or 4 parallel requests were allowed per host
+Fully multiplexed
+First file must be loaded, before loading second file
+They can arrive in any order. 
+each single request have their own headers
+Header compression scheme
+
+
+Transfer is textual
+Transfer is binary
+
+The new HTTP/2 protocol will make web pages load significantly faster.
+
+
+
+
+
+
+
+
+
+            RESTful ARCHITECTURE
+
+REST stands for REpresentational State Transfer. It provides high level guidelines to the user.
+There are some architectural constraints which can make any web service , a true RESTful API
+
+Client-Server
+         Client and Server application should be dependent on each other.
+
+      2. Stateless
+        It should treat each and every request as new.
+
+      3.Cacheable
+        It can be implemented on server or client side.
+
+     4.Layered System 
+        It allows you to use layered system architecture.
+
+     5. Uniform Interface
+        We must decide API interface.
+
+
